@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace StringAlgo
 {
-    public class upperCharacter
+    public static class upperCharacter
     {
         /// <summary>
         ///  A method to return all uppercase characters in a string
