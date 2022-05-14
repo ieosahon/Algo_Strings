@@ -8,12 +8,12 @@ namespace StringAlgo
         static void Main(string[] args)
         {
             StringValidation.ValidateString();
-            List<char> characters = StringValidation.AllUpperCharacter("OsahoN");
+            // List<char> characters = StringValidation.AllUpperCharacter("OsahoN");
 
-            foreach(char cha in characters)
-            {
-                Console.WriteLine(cha);
-            }
+            // foreach(char cha in characters)
+            // {
+            //     Console.WriteLine(cha);
+            // }
 
             var res = StringValidation.IsUpperCase("Osahon");
             Console.WriteLine(res);
