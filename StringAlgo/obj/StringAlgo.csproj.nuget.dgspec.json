@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\StringAlgo.csproj": {}
+    "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\Algo_Strings\\StringAlgo\\StringAlgo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\StringAlgo.csproj": {
+    "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\Algo_Strings\\StringAlgo\\StringAlgo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\StringAlgo.csproj",
+        "projectUniqueName": "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\Algo_Strings\\StringAlgo\\StringAlgo.csproj",
         "projectName": "StringAlgo",
-        "projectPath": "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\StringAlgo.csproj",
+        "projectPath": "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\Algo_Strings\\StringAlgo\\StringAlgo.csproj",
         "packagesPath": "C:\\Users\\Osahon E. Ighodaro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\obj\\",
+        "outputPath": "C:\\Users\\Osahon E. Ighodaro\\Algorithms\\NewSetOfAlgo\\StringAlgo\\Algo_Strings\\StringAlgo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
