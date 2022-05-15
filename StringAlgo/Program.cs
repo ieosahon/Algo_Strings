@@ -26,6 +26,11 @@ namespace StringAlgo
 
              var stringToReverse = ReverseEachWord.Reverse("osahon is");
              Console.WriteLine(stringToReverse);
+
+             int [] arrNum = {1, 4, 5, 7, 10};
+             int givenNum = 4;
+             Console.WriteLine(LinearSearch.SearchForNumber(arrNum, givenNum));
+              Console.WriteLine(LinearSearch.SearchForNumber2(arrNum, givenNum));
         }
     }
 }
