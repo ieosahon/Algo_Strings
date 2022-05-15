@@ -20,6 +20,12 @@ namespace StringAlgo
 
             var input = StringValidation.ReverseString("osahon is a nice guy");
             Console.WriteLine(input);
+
+            var strings = StringValidation.ReverseString2("Hello world");
+            Console.WriteLine(strings);
+
+             var stringToReverse = ReverseEachWord.Reverse("osahon is");
+             Console.WriteLine(stringToReverse);
         }
     }
 }

@@ -31,5 +31,16 @@ namespace StringAlgo
             }
             return newStr;
         }
-    }    
+
+         public static string ReverseString2(string str)
+        {
+            if (string.IsNullOrWhiteSpace(str)) return str;
+            str = str.Replace(",", "");
+            char [] arrStr = str.ToCharArray();
+            Array.Reverse(arrStr);
+            return new String(arrStr);
+           
+        }
+    }
+       
 }
