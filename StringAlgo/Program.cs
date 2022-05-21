@@ -31,6 +31,10 @@ namespace StringAlgo
              int givenNum = 4;
              Console.WriteLine(LinearSearch.SearchForNumber(arrNum, givenNum));
               Console.WriteLine(LinearSearch.SearchForNumber2(arrNum, givenNum));
+
+            var str1 = "aed";
+            var str2 = "ADE";
+            Console.WriteLine(Amagram.WordCheck(str1, str2));
         }
     }
 }
