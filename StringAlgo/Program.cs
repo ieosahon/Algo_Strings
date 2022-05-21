@@ -35,6 +35,11 @@ namespace StringAlgo
             var str1 = "aed";
             var str2 = "ADE";
             Console.WriteLine(Amagram.WordCheck(str1, str2));
+
+            var stringToCheck = "qweQAsf1234@#$%^&!_";
+            // Console.WriteLine(LongestSubString.SubString(stringToCheck));
+            var rese = LongestSubString.SubString(stringToCheck);
+            System.Console.WriteLine( rese);
         }
     }
 }
