@@ -46,8 +46,11 @@ namespace StringAlgo
               {
                   Console.WriteLine(i);
               }
-            
-            
+            System.Console.WriteLine("################################");
+
+            var str = LongestSubString.SubStrings("qweQAsf1234@#$%^&!_");
+           
+            Console.WriteLine(str);
             
         }
     }
