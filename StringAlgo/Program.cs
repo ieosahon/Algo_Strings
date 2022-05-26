@@ -14,9 +14,10 @@ namespace StringAlgo
             {
                 Console.WriteLine(cha);
             }
-
+ System.Console.WriteLine("################################");
             var res = StringValidation.IsUpperCase("Osahon");
             Console.WriteLine(res);
+             System.Console.WriteLine("################################");
 
             var input = StringValidation.ReverseString("osahon is a nice guy");
             Console.WriteLine(input);
@@ -36,10 +37,18 @@ namespace StringAlgo
             var str2 = "ADE";
             Console.WriteLine(Amagram.WordCheck(str1, str2));
 
-            var stringToCheck = "qweQAsf1234@#$%^&!_";
-            // Console.WriteLine(LongestSubString.SubString(stringToCheck));
-            var rese = LongestSubString.SubString(stringToCheck);
-            System.Console.WriteLine( rese);
+            System.Console.WriteLine("################################");
+
+
+            
+            List<char> stringToCheck = LongestSubString.SubString("qweQAsf1234@#$%^&!_");
+              foreach(var i in stringToCheck)
+              {
+                  Console.WriteLine(i);
+              }
+            
+            
+            
         }
     }
 }

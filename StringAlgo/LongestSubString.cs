@@ -7,9 +7,9 @@ namespace StringAlgo
 {
     public static class LongestSubString
     {
-        public static string SubString(string str)
+        public static List<char> SubString(string str)
         {
-            //string stringPattern = "^[A-Za-z]$";
+
             List<char> subString = new List<char>();
             foreach (var letter in str)
             {
@@ -19,7 +19,7 @@ namespace StringAlgo
                     subString.Add(letter);
                 }
             }
-            return subString.ToString();
+            return subString;
         }
     }
 }
