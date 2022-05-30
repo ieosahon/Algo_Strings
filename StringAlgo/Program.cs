@@ -35,7 +35,7 @@ namespace StringAlgo
 
             var str1 = "aedlove";
             var str2 = "ADEvoel";
-            Console.WriteLine(Amagram.WordCheck(str1, str2));
+            Console.WriteLine(Anagram.WordCheck(str1, str2));
 
             System.Console.WriteLine("################################");
 
@@ -51,6 +51,11 @@ namespace StringAlgo
             var str = LongestSubString.SubStrings("qweQAsf1234@#$%^&!_");
            
             Console.WriteLine(str);
+            System.Console.WriteLine("################################");
+            var word1 = "adaba";
+            var word2 = "ABADA";
+            Console.WriteLine(Anagram.AnagramCheck(word1, word2));
+
             
         }
     }
