@@ -33,8 +33,8 @@ namespace StringAlgo
              Console.WriteLine(LinearSearch.SearchForNumber(arrNum, givenNum));
               Console.WriteLine(LinearSearch.SearchForNumber2(arrNum, givenNum));
 
-            var str1 = "aed";
-            var str2 = "ADE";
+            var str1 = "aedlove";
+            var str2 = "ADEvoel";
             Console.WriteLine(Amagram.WordCheck(str1, str2));
 
             System.Console.WriteLine("################################");
