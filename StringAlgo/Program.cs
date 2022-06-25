@@ -14,10 +14,10 @@ namespace StringAlgo
             {
                 Console.WriteLine(cha);
             }
- System.Console.WriteLine("################################");
+                Console.WriteLine("################################");
             var res = StringValidation.IsUpperCase("Osahon");
             Console.WriteLine(res);
-             System.Console.WriteLine("################################");
+            Console.WriteLine("################################");
 
             var input = StringValidation.ReverseString("osahon is a nice guy");
             Console.WriteLine(input);
@@ -31,13 +31,13 @@ namespace StringAlgo
              int [] arrNum = {1, 4, 5, 7, 10};
              int givenNum = 4;
              Console.WriteLine(LinearSearch.SearchForNumber(arrNum, givenNum));
-              Console.WriteLine(LinearSearch.SearchForNumber2(arrNum, givenNum));
+            Console.WriteLine(LinearSearch.SearchForNumber2(arrNum, givenNum));
 
             var str1 = "aedlove";
             var str2 = "ADEvoel";
             Console.WriteLine(Anagram.WordCheck(str1, str2));
 
-            System.Console.WriteLine("################################");
+            Console.WriteLine("################################");
 
 
             
@@ -46,7 +46,7 @@ namespace StringAlgo
               {
                   Console.WriteLine(i);
               }
-            System.Console.WriteLine("################################");
+            Console.WriteLine("################################");
 
             var str = LongestSubString.SubStrings("qweQAsf1234@#$%^&!_");
            
@@ -56,7 +56,10 @@ namespace StringAlgo
             var word2 = "ABADA";
             Console.WriteLine(Anagram.AnagramCheck(word1, word2));
 
-            
+            Console.WriteLine("############################");
+            var dupRes = DuplicateChar.DuplicateCharater("oson");
+            Console.WriteLine(dupRes);
+
         }
     }
 }
